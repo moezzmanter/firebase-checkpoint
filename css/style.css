@@ -1,0 +1,193 @@
+
+@keyframes shake {
+  0% {
+    transform:translateX(3px)
+  }
+  25% {
+    transform:translateX(-3px)
+  }
+  50% {
+    transform:translateX(3px)
+  }
+  75% {
+    transform:translateX(-3px)
+  }
+  100% {
+    transform:translateX(3px)
+  }
+}
+
+
+body{
+ background:linear-gradient( 90deg,#e66465, #9198e5);
+}
+
+
+.main{
+    width: 420px;
+    height: 620px;
+    background-color:rgb(54, 53, 53);
+    margin-left: 430px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    position: relative;
+    
+}
+.main:hover{
+  animation: shake 0.5s ;
+}
+.container{
+    background-color: rgb(54, 53, 53);
+    position: absolute;
+    height: 560px;
+    width: 330px;
+    margin-left: 45px;
+    margin-top: 28px;
+    border-radius: 25px;
+    border-color: rgb(201, 113, 174);
+    border-style: solid;
+    display:grid;
+}
+
+.container h1{
+    color: whitesmoke;
+    font-family: cursive;
+    font-weight: bold;
+    padding-left: 20px;
+    text-shadow: #84428d  2px 3px;
+}
+
+
+.place1{
+    padding-top: 12px;
+    
+   color: rgb(123, 82, 139);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 38px;
+   font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  .place1 #name{
+  text-align: center;
+  align-items: center;
+   background-color: rgb(187, 187, 187);
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    border-width: 0;
+   
+  }
+  ::placeholder{
+    color: aliceblue;
+    
+  }
+  
+  .place1 #email{
+    text-align: center;
+    align-items: center;
+     background-color: rgb(187, 187, 187);
+      border-radius: 20px;
+      height: 30px;
+      width: 250px;
+      border-width: 0;
+      align-self: auto;
+    }
+  
+    .place1 #phonenumber{
+      text-align: center;
+      align-items: center;
+       background-color: rgb(187, 187, 187);
+        border-radius: 20px;
+        height: 30px;
+        width: 250px;
+        border-width: 0;
+        
+      }
+
+
+      .place1 #unischool{
+        text-align: center;
+        align-items: center;
+         background-color: rgb(187, 187, 187);
+          border-radius: 20px;
+          height: 30px;
+          width: 250px;
+          border-width: 0;
+          
+        }
+
+
+        .selection{
+            padding-top: 12px;
+    
+            color: rgb(123, 82, 139);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           margin-left: 38px;
+            font-family: sans-serif;
+             font-weight: bold;
+             font-size: 1.3em;
+        }
+
+
+        #course-select{
+            text-align: center;
+            align-items: center;
+            background-color: rgb(187, 187, 187);
+            border-radius: 20px;
+            height: 30px;
+            width: 250px;
+            border-width: 0;  
+            margin-left: 38px;
+        }
+
+
+        .button{
+            background-color:rgb(22, 20, 19);
+            color: rgb(144, 61, 177);
+            border: none;
+            margin-top: 7%;
+           height: 45px;
+           width: 190px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 20px;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 19px;
+           margin-left: 64px;
+        }
+input{
+  text-align: center;
+            align-items: center;
+            background-color: rgb(187, 187, 187);
+            border-radius: 20px;
+            height: 30px;
+            width: 250px;
+            border-width: 0;  
+            margin-left: 38px;
+}
+label{
+  padding-top: 12px;
+    
+  color: rgb(123, 82, 139);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-left: 38px;
+  font-family: sans-serif;
+   font-weight: bold;
+   font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
